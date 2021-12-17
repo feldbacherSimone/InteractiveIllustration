@@ -7,12 +7,12 @@
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" width=1280 height=720 style="width: 1280px; height: 720px; background: #231F20"></canvas>
-    <script src="Build/Build.loader.js"></script>
+    <script src="Build/docs.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Build.data.gz",
-        frameworkUrl: "Build/Build.framework.js.gz",
-        codeUrl: "Build/Build.wasm.gz",
+        dataUrl: "Build/docs.data",
+        frameworkUrl: "Build/docs.framework.js",
+        codeUrl: "Build/docs.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Interactive Illustration",
